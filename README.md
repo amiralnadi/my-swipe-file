@@ -58,7 +58,7 @@
   Paste this single command in your terminal — it creates the skill folder and downloads the skill file in one step:
 
   ```bash
-  mkdir -p ~/.claude/skills/myswipe && curl -s https://raw.githubusercontent.com/amiralnadi/swipe-file/main/skill.md -o ~/.claude/skills/myswipe/skill.md ```
+  mkdir -p ~/.claude/skills/myswipe && curl -s https://raw.githubusercontent.com/amiralnadi/swipe-file/main/skill.md -o ~/.claude/skills/myswipe/skill.md 
 
   Then complete the one-time setup:
   1. Go to myswipe.cc/settings and copy your API key
