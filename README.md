@@ -31,6 +31,41 @@
                                                                                                                                                         
   **Manually** — edit the Markdown files in `data/` directly in any editor
                                                                                                                                                         
+  ## Using with Claude Code (/myswipe skill)
+
+  Most people save links they never return to. Bookmarks pile up, tabs stay open, notes get lost. The /myswipe skill fixes this by turning anything you find interesting into a structured, searchable item in your
+  library — and making that library actually useful when you work.
+
+  ### What you can do
+
+  **Keep all your bookmarks valuable:**
+  - `/myswipe add [url] + [note] (optionally)` — Claude fills in the card automatically, and then you can extract value when you actually need it. Your saved guides, references, tools and other 
+  - `/myswipe add https://twitter.com/... great example of a launch thread that went viral` — add a note alongside the link, AI uses it as context to write a better card
+  - `/myswipe add https://somesite.com — just drop a link, no note needed`
+
+  **Surface relevant references while you work:**
+  - `/myswipe check` — tell Claude what you're working on, it scans your library and shows you the most relevant items with an explanation of why each one applies
+
+  **Example use cases:**
+  - Writing a cold email sequence → `/myswipe check` surfaces the email examples and copywriting frameworks you've saved
+  - Designing a landing page → it finds the SaaS landing pages and conversion examples from your library
+  - Planning a social media campaign → it pulls your saved UGC platforms, viral threads, and campaign references
+
+  The more you save, the more useful it gets. Your library becomes a personalized knowledge base that makes your AI outputs less generic, more aligned with your expectations and more grounded in examples you've already vetted.
+
+  ### Install the skill
+
+  Paste this single command in your terminal — it creates the skill folder and downloads the skill file in one step:
+
+  ```bash
+  mkdir -p ~/.claude/skills/myswipe && curl -s https://raw.githubusercontent.com/amiralnadi/swipe-file/main/skill.md -o ~/.claude/skills/myswipe/skill.md
+
+  Then complete the one-time setup:
+  1. Go to myswipe.cc/settings and copy your API key
+  2. Run /myswipe setup in Claude Code and paste the key when prompted
+  3. Done — the skill works in both Claude Code CLI and desktop app
+  
+  
   ## Data format
                                                                                                                                                         
   Each `.md` file in `data/` is a folder. Items follow this structure:
