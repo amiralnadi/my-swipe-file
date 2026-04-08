@@ -15,12 +15,9 @@
 
 ## Why Markdown + GitHub?
                                                                                                                                                         
-  Your items are plain Markdown files in your own GitHub repo. This means AI tools like Claude, Cursor, or Copilot can read them natively — no          
-  integrations, no exports needed.
+  Your items are plain Markdown files in your own GitHub repo. This means AI tools like Claude, Cursor, or Copilot can read them natively.
                                                                                                                                                         
-  Point your AI at this repo and it has access to your entire reference library. When you're writing copy, designing a feature, or solving a problem,   
-  your AI can draw from your specific examples and standards instead of giving you generic output. The more you save, the more personalized and useful
-  your AI becomes.                                                                                                                                      
+  Point your AI at this repo and it has access to your entire reference library. When you're writing copy, designing a feature, or solving a problem, your AI can draw from your specific examples and standards instead of giving you generic output. The more you save, the more personalized and useful your AI becomes.                                                                                                                                      
                                                             
   This is your **personal knowledge base** — built in a format AI understands natively.        
                              
