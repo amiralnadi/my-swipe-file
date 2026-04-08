@@ -65,8 +65,8 @@
   2. Run /myswipe setup in Claude Code and paste the key when prompted
   3. Done — the skill works in both Claude Code CLI and desktop app
 
-  ## Using with Claude Code (MCP connector)
-
+**## Using with Claude Code (MCP connector)
+**
 
 The MCP connector brings your swipe file into Claude Desktop chat. Instead of switching to the web app or running commands, you just talk to Claude naturally:                                                   
                                                                                                                                                                                                                      
